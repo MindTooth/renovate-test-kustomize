@@ -7,5 +7,12 @@
     ":timezone(Europe/Berlin)"
   ],
 
-  "enabledManagers": ["kustomize"]
+  "enabledManagers": ["kustomize"],
+
+  "packageRules": [
+    {
+      "matchFileNames": ["stage/"],
+      "additionalBranchPrefix": "test"
+    }
+  ]
 }
