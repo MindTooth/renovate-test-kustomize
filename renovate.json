@@ -11,7 +11,7 @@
 
   "packageRules": [
     {
-      "matchFileNames": ["stage/"],
+      "matchFileNames": ["stage/*.yaml"],
       "additionalBranchPrefix": "test"
     }
   ]
