@@ -4,8 +4,7 @@
   "extends": [
     "config:recommended",
     ":label(dependencies)",
-    ":timezone(Europe/Berlin)",
-    ":separateMajorReleases"
+    ":timezone(Europe/Berlin)"
   ],
 
   "enabledManagers": ["kustomize"]
