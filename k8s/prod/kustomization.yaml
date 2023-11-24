@@ -4,4 +4,4 @@ kind: Kustomization
 
 images:
   - name: quay.io/keycloak/keycloak
-    newTag: 22.0.0
+    newTag: 23.0.0
